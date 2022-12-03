@@ -3,7 +3,7 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update VARIANT to pick a specific R version: 4, 4.1, 4.0
-		"args": { "VARIANT": "4" }
+		"args": { "VARIANT": "4.2.0" }
 	},
 
 	// Set *default* container specific settings.json values on container create.
@@ -26,7 +26,7 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"vsls-contrib.codetour",
-		"GitHub.copilot"
+	
 	],
 
 	// Forward Jupyter and RStudio ports
